@@ -6,12 +6,27 @@ img {
   width: 100px;
   height: 100px;
 }
+.text{
+  text-align: center;
+}
+.item{
+  max-width: 200px;
+}
 
 .title {
   font-size: 36px;
   font-weight: 900;
+  display: flex;
+  justify-content: center;
 }
+.item-list{
+  margin-top: 32px;
+  display: flex;
+  gap: 52px;
+  justify-content: center;
 
+  
+}
 /* do not edit this footer */
 .footer {
   position: fixed;
